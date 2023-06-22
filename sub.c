@@ -12,7 +12,7 @@ void f_sub(stack_t **head, unsigned int counter)
 	int node;
 
 	aux = *head;
-	for (node = ; aux != NULL; node++)
+	for (node = 0; aux != NULL; node++)
 		aux = aux->next;
 	if (node < 2)
 	{
