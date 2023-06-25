@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
- * f_pop - function that prints the top
+ * f_pop - function that prints the stack top
  * @head: head of stack
- * @counter: number of lines
+ * @counter: line count
  * Return: void
 */
 void f_pop(stack_t **head, unsigned int counter)

@@ -1,17 +1,18 @@
 #include "monty.h"
+bus_t bus = {NULL, NULL, NULL, 0};
 /**
-* main - function for monty code interpreter
-* @argc: numbers of argument passed
-* @argv: location of monty file
-* Return: Always 0
+* main - monty code interpreter
+* @argc: number of arguments
+* @argv: monty file location
+* Return: 0 on success
 */
 int main(int argc, char *argv[])
 {
-	stack_t *stack = NULL;
 	char *content;
 	FILE *file;
 	size_t size = 0;
 	ssize_t read_line = 1;
+	stack_t *stack = NULL;
 	unsigned int counter = 0;
 
 	if (argc != 2)

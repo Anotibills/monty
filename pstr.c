@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
- * f_pstr - function that prints the string at the top of the stack
- * @head: head
- * @counter: number of line
+ * f_pstr - function that prints the string from the top of the stack
+ * @head: head of the stack
+ * @counter: line count
  * Return: void
 */
 void f_pstr(stack_t **head, unsigned int counter)

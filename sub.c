@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
-  *f_sub - function that subtrats from stack
+  *f_sub - function that subtration two stacks
   *@head: head of stack
-  *@counter: number of line
+  *@counter: line count
   *Return: void
  */
 void f_sub(stack_t **head, unsigned int counter)
